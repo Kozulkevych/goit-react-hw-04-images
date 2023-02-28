@@ -1,4 +1,5 @@
 import { SearchFormButton } from './IconButton.styled';
+import PropTypes from 'prop-types';
 
 export const IconButton = ({
   type = 'button',
@@ -12,3 +13,8 @@ export const IconButton = ({
     </SearchFormButton>
   );
 };
+
+IconButton.propTypes = {
+  children: PropTypes.node.isRequired,
+  Icon: PropTypes.node,
+}
