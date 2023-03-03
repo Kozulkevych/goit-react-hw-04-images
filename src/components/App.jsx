@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
-import { fetchGallery } from 'Servises/imagesApi';
+import { fetchGallery } from 'Services/imagesApi';
 import { Searchbar } from './Searchbar/Searchbar';
 import { ImageGallery } from './ImageGallery/ImageGallery';
 import { Button } from './Button/Button';
